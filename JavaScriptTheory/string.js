@@ -31,6 +31,13 @@
 // console.log(str.replace("Bhavesh", "Malik")); // output - Malik Bansal
 
 // Print uppercase and lower letter
-let str = "Bhavesh Bansal";
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+// let str = "Bhavesh Bansal";
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+let str = "Bhavesh";
+console.log(str.charAt(1)); // gives the charcter
+console.log(str.charCodeAt(0)); // gives the charcter ASCII value
+
+str[0] = "A"; // Strings are immutable
+console.log(str);
