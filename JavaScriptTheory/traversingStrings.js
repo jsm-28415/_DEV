@@ -59,24 +59,24 @@
 // console.log(newStr.reverse());
 
 // 2- way
-let str = "Bhavesh Bansal";
-let revstr = "";
-for(let i = str.length - 1; i >= 0; i--){
-    revstr += str[i];
-}
-let sp;
-let ep = revstr.length;
-let ans = "";
-for(let i = revstr.length - 1; i >= 0; i--){
-    if(revstr[i] == " "){
-        sp = i + 1;
-        ans += revstr.substring(sp, ep) + " ";
-        ep = i;
-        sp = undefined;
-    }
-    else if(i == 0){
-        sp = 0;
-        ans += revstr.substring(sp, ep);
-    }
-}
-console.log(ans);
+// let str = "Bhavesh Bansal";
+// let revstr = "";
+// for(let i = str.length - 1; i >= 0; i--){
+    // revstr += str[i];
+// }
+// let sp;
+// let ep = revstr.length;
+// let ans = "";
+// for(let i = revstr.length - 1; i >= 0; i--){
+    // if(revstr[i] == " "){
+        // sp = i + 1;
+        // ans += revstr.substring(sp, ep) + " ";
+        // ep = i;
+        // sp = undefined;
+    // }
+    // else if(i == 0){
+        // sp = 0;
+        // ans += revstr.substring(sp, ep);
+    // }
+// }
+// console.log(ans);
