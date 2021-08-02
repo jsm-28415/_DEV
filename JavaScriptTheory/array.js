@@ -55,7 +55,26 @@
 
 // console.log(String.fromCharCode("a".charCodeAt(0) + 1));
 
-const arr = [1,2,3,4,5];
-arr[3] = 8; // Reassignation allowed
-arr = [1,2,3]; // redifining not allowed
-console.log(arr);
+// const arr = [1,2,3,4,5];
+// arr[3] = 8; // Reassignation allowed
+// arr = [1,2,3]; // redifining not allowed
+// console.log(arr);
+
+// let arr = ["a", "b", "c", "d", "e"];
+// for each is a method we use, and we put argument in that.
+// arr.forEach(function(value, index, array){
+    // console.log(value, index, array);
+// })
+
+// let arr = ["a", "b", "c", "d", "e"];
+// function temp(myarg, myarg2, myarg3, data){
+    // console.log(myarg, myarg2, myarg3, data);
+// }
+// arr.forEach(temp.bind(this, "hello", "hello2", "hello3"));
+
+let arr = ["7", "6", "4", "8", "9"];
+
+function give(a1, a2, a3, data){
+    console.log(a1, a2, a3, data);
+}
+arr.forEach(give.bind("One", "Two", "Three"));

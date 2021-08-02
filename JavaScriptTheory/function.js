@@ -39,11 +39,13 @@
 // console.log(add("1", 2));
 // console.log(add(1, 2));
 
-print();
-function print() {
-    console.log("hello");
-}
+// print();
+// function print() {
+    // console.log("hello");
+// }
+// console.log(print()); // by deafult every function has return undefined statement.
 
-let print = function(){
-    console.log("hello");
-}
+// let print = function(){
+    // console.log("hello");
+// }
+
