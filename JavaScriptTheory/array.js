@@ -72,9 +72,13 @@
 // }
 // arr.forEach(temp.bind(this, "hello", "hello2", "hello3"));
 
-let arr = ["7", "6", "4", "8", "9"];
-
-function give(a1, a2, a3, data){
-    console.log(a1, a2, a3, data);
+function myForEach(array, callBackFn){
+    for(let i = 0; i < array.length; i++){
+        callBackFn(array[i], i, array);
+    }
 }
-arr.forEach(give.bind("One", "Two", "Three"));
+
+let arr = [1,2,3,4];
+myForEach(arr,function(value, index, array){
+    console.log(value, index, array);
+})
