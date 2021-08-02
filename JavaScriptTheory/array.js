@@ -53,4 +53,9 @@
 
 // console.log(1 + 2 + "a"); // first integer addition then string concatenation
 
-console.log(String.fromCharCode("a".charCodeAt(0) + 1));
+// console.log(String.fromCharCode("a".charCodeAt(0) + 1));
+
+const arr = [1,2,3,4,5];
+arr[3] = 8; // Reassignation allowed
+arr = [1,2,3]; // redifining not allowed
+console.log(arr);
