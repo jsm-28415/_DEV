@@ -101,10 +101,38 @@
 // arr.splice(1,3); // change in original array, delete 3 of them 2,3,4 as per array i.e. 1
 // console.log(arr);
 
-let arr = [1,2,3,3,3,3,4,5,6,7,8,9];
-for(let i = arr.length - 1; i >= 0; i--){
-    if(arr[i] % 2 == 1){
-        arr.splice(i, 1);
+// let arr = [1,2,3,3,3,3,4,5,6,7,8,9];
+// let temparr = [...arr]; // create copy of the array
+// for(let i = arr.length - 1; i >= 0; i--){
+    // if(arr[i] % 2 == 1){
+        // arr.splice(i, 1);
+    // }
+// }
+// console.log(arr);
+
+// let arr = [1,2,3,3,3,3,4,5,6,7,8,9];
+// arr = arr.filter(function(value){
+    // if(value % 2 == 1){
+        // return false;
+    // }
+    // else{
+        // return true;
+    // }
+    // return value % 2 == 0;
+// });
+// console.log(arr);
+
+
+// arrange in sequence
+let arr = [2,3,5,6,7,8,9,4,1];
+console.log(arr.sort(function(a,b){
+    if(a > b){
+        return 1;
     }
-}
-console.log(arr);
+    else if(a == b){
+        return 0;
+    }
+    else{
+        return -1;
+    }
+}));
