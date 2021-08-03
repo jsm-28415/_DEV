@@ -72,13 +72,39 @@
 // }
 // arr.forEach(temp.bind(this, "hello", "hello2", "hello3"));
 
-function myForEach(array, callBackFn){
-    for(let i = 0; i < array.length; i++){
-        callBackFn(array[i], i, array);
+// function myForEach(array, callBackFn){
+    // for(let i = 0; i < array.length; i++){
+        // callBackFn(array[i], i, array);
+    // }
+// }
+// 
+// let arr = [1,2,3,4];
+// myForEach(arr,function(value, index, array){
+    // console.log(value, index, array);
+// })
+
+// let arr = [1,2,3,4]
+// for(let i = 0; i < arr.length; i++){
+    // console.log(arr[i]+=2); // one way to change array value
+// }
+
+// best way by using map;
+// let arr = [1,2,3,4]
+// arr = arr.map(function(value){ // map function ek method ko argument mn use krta hn, 
+    // return value + 2;          // and gives a new array by changing array all value
+// });
+// console.log(arr);
+
+// let arr = [1,2,3,4];
+// arr.slice(1,3); // gives the array asking from 1->3 i.e. 1,2,3,4
+// console.log(arr);
+// arr.splice(1,3); // change in original array, delete 3 of them 2,3,4 as per array i.e. 1
+// console.log(arr);
+
+let arr = [1,2,3,3,3,3,4,5,6,7,8,9];
+for(let i = arr.length - 1; i >= 0; i--){
+    if(arr[i] % 2 == 1){
+        arr.splice(i, 1);
     }
 }
-
-let arr = [1,2,3,4];
-myForEach(arr,function(value, index, array){
-    console.log(value, index, array);
-})
+console.log(arr);
