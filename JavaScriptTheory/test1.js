@@ -114,4 +114,12 @@
 // console.log(getLength([1,[2,[3,4]]]));
 // console.log(getLength([1,[2,[3,[4,[5,6]]]]]));
 
-// Question - 8
+// Question - 9
+
+// function missing(a, b) {
+    // for (let i = 0; i < a.length; i++)
+        // if (a[i] !== b[i])
+            // return a[i];
+// }
+// console.log(missing([1,2,3,4,5,6,7,8],[1,3,4,5,6,7,8]));
+// console.log(missing([true, true, false, false, true], [false, true, false, true]));
