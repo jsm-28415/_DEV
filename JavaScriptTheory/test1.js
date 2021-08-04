@@ -23,6 +23,9 @@
 //   arr2.unshift(arr1[0]);
 //   return arr2;
 // }
+//   console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]));
+//   console.log(tuckIn([15,150], [45, 75, 35]));
+//   console.log(tuckIn([[1, 2], [5, 6]], [[3, 4]]));
 
 // Question - 5
 
@@ -36,6 +39,9 @@
     // }
     // return count;
 // }
+// console.log(countTrue([true,false,false,true,false]));
+// console.log(countTrue([false,false,false,false]));
+// console.log(countTrue([]));
 
 // Question - 3
 
@@ -56,16 +62,25 @@
 				// }
 	// return str.split("").reverse().join("")
 // }
+// console.log(binary(1));
+// console.log(binary(5));
+// console.log(binary(10));
 
 // Question - 2
 
 // function addUp(num){
     // return num === 1 ? 1 : num + addUp(num - 1);
 // }
+// console.log(addUp(4));
+// console.log(addUp(13));
+// console.log(addUp(600));
 
 // Question - 1
 
 // const frames = (minutes, fps) => 60 * minutes * fps;
+// console.log(frames(1, 1));
+// console.log(frames(10, 1));
+// console.log(frames(10, 25));
 
 // Question - 6
 
@@ -78,7 +93,9 @@
 //    };
 //    return num;
 // };
-// console.log(multiples(num1, num2));
+// console.log(multiples(7, 5));
+// console.log(multiples(12, 10));
+// console.log(multiples(17, 16));
 
 // Question - 7
 
@@ -93,5 +110,8 @@
 	// });
 	// return count;
 // }
+// console.log(getLength([1,[2,3]]));
+// console.log(getLength([1,[2,[3,4]]]));
+// console.log(getLength([1,[2,[3,[4,[5,6]]]]]));
 
 // Question - 8
