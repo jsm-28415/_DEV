@@ -1,4 +1,5 @@
 // Question-4
+
 // const tuckIn = (a1, a2) => {
 //     let a = [a1.shift()];
 //     let b = [a1.pop()];
@@ -17,7 +18,6 @@
 
 // Question - 5
 
-// let arr = ([true, false, false, true, false]);
 // function countTrue(arr){
     // let count = 0;
 // 
@@ -72,5 +72,18 @@
 // };
 // console.log(multiples(num1, num2));
 
-// Question - 8
+// Question - 7
 
+// function getLength(arr) {
+	// let count = 0;
+	// arr.forEach(item => {
+		// if (Array.isArray(item)) {
+			// count += getLength(item);
+		// } else {
+			// count++;
+		// }
+	// });
+	// return count;
+// }
+
+// Question - 8
