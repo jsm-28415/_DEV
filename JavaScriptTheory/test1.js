@@ -123,3 +123,23 @@
 // }
 // console.log(missing([1,2,3,4,5,6,7,8],[1,3,4,5,6,7,8]));
 // console.log(missing([true, true, false, false, true], [false, true, false, true]));
+
+// Question - 8
+
+// function numInStr(arr1){
+    // let count=0;
+    // let arr2=[];
+    // for(let i = 0; i < arr1.length; i++){
+        // let str = arr1[i];
+        // for(let j = 0; j < str.length; j++){
+            // if(str.charCodeAt(j) >= 48 && str.charCodeAt(j) <= 57){
+                // arr2[count]=arr1[i];
+                // count++;
+                // break;
+            // }
+        // }
+    // }
+    // return arr2;
+// }
+// console.log(numInStr(["1a","a","2b","b"]));
+// console.log(numInStr(["abc","abc10"]));
