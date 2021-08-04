@@ -16,6 +16,14 @@
 //   console.log(tuckIn([15,150], [45, 75, 35]));
 //   console.log(tuckIn([[1, 2], [5, 6]], [[3, 4]]));
 
+// one more way
+
+// function tuckIn(arr1, arr2) {
+	// arr2.push(arr1[1]);
+//   arr2.unshift(arr1[0]);
+//   return arr2;
+// }
+
 // Question - 5
 
 // function countTrue(arr){
