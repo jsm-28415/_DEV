@@ -17,20 +17,26 @@
 // let name = "Bhavesh bansal";
 // name.len();
 
-let obj = {
-    1 : "hello1",
-    2 : "hello2"
-}
+// let obj = {
+    // 1 : "hello1",
+    // 2 : "hello2"
+// }
 
 // console.log(Object.keys(obj));
 // console.log(Object.values(obj));
 
 // Ways to iterate
 
-for(let key in obj){
-    console.log(obj[key]);
-}
+// for(let key in obj){
+    // console.log(obj[key]);
+// }
+// 
+// for(let i = 0; i < Object.keys(obj); i++){
+    // console.log(obj[Object.keys(obj)[i]])
+// }
 
-for(let i = 0; i < Object.keys(obj); i++){
-    console.log(obj[Object.keys(obj)[i]])
+let obj = {
+    obj1 : {
+        "obj1.1" : {"obj1.1.1" : " obj1.1.1.1"}
+    }
 }
