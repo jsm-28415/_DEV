@@ -1,4 +1,4 @@
-// const fs = require("fs");
+const fs = require("fs");
 
 // console.log(fs.readFileSync("a.txt", "utf-8")); // This is synchronus method
 
@@ -22,3 +22,5 @@ let file2name = process.argv[4];
 let file1data = fs.readFileSync(file1name, "utf-8");
 let file2data = fs.readFileSync(file2name, "utf-8");
 console.log(file1data + "\n" + file2data)
+
+// Enter this line to execute output - node .\fs.js a.txt -a b.txt
